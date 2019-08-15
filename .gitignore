@@ -1,0 +1,4 @@
+﻿packages/
+.vs/
+cefSharp/bin/
+cefSharp/obj/

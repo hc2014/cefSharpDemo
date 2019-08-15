@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <script type="text/javascript">
+        function test(a, b) {
+            var c = testfunc(a, b);
+            alert(c);
+        }
+        function testfunc(a, b) {
+            return a + b;
+        }
+
+        function callCsharp() {
+            bound.myProperty = "123";
+            bound.myMethod();
+        }
+    </script>
+
+</head>
+<body>
+  <div style="height:100px">&nbsp;</div>
+    <input type="button" onclick="test(1,2)" value="测试" />
+    <br />
+    <input type="button" onclick="callCsharp(1,2)" value="调用c#" />
+</body>
+
+</html>
